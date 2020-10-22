@@ -6,3 +6,7 @@
 * eslint, prettifer
 * es6 support
 * jest
+
+## File name
+* lower case
+* multiple word separated by hyphen (-)
