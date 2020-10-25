@@ -4,6 +4,7 @@
   "description": "This cli fetches a twitter thread and converts it into PDF, ePub, Mobi, etc",
   "main": "src/index.js",
   "scripts": {
+    "prettier": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/twindle-co/twindle-cli/issues"
   },
-  "homepage": "https://github.com/twindle-co/twindle-cli#readme"
+  "homepage": "https://github.com/twindle-co/twindle-cli#readme",
+  "devDependencies": {
+    "prettier": "2.1.2"
+  }
 }
